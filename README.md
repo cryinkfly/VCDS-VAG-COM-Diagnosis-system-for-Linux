@@ -20,6 +20,10 @@ Personally, I think this idea is good and for this reason I will do my best to g
 
 ---
 
+You will get more information about this program, then you can visit the original website of VCDS (VAG-COM diagnosis system) with this link: https://www.ross-tech.com/vag-com/index.html
+
+---
+
   - 📂 Downloads: [Stable](https://github.com/cryinkfly/VCDS-VAG-COM-Diagnosis-System-/tree/main/scripts/stable-branch) and [development builds](https://github.com/cryinkfly/VCDS-VAG-COM-Diagnosis-System-/tree/main/scripts/development-branch)
   - 📔 Documentation: Still in Progress!
   - 💬 Would You like to get in touch with me? Or if You have any questions, suggestions or problems?
