@@ -1,10 +1,10 @@
 ![banner-vcds](https://user-images.githubusercontent.com/79079633/134122849-69eea782-9f65-4b70-aadd-3d4cdce17bb5.png)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/cryinkfly/VCDS-VAG-COM-Diagnosis-System-?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues-raw/cryinkfly/VCDS-VAG-COM-Diagnosis-System-?style=for-the-badge)
-![GitHub Repo stars](https://img.shields.io/github/stars/cryinkfly/VCDS-VAG-COM-Diagnosis-System-?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/cryinkfly/VCDS-VAG-COM-Diagnosis-System-?style=for-the-badge)
-![GitHub](https://img.shields.io/github/license/cryinkfly/VCDS-VAG-COM-Diagnosis-System-?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/cryinkfly/VCDS-VAG-COM-diagnosis-system---Linux-Wine-Version-?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues-raw/cryinkfly/VCDS-VAG-COM-diagnosis-system---Linux-Wine-Version-?style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/cryinkfly/VCDS-VAG-COM-diagnosis-system---Linux-Wine-Version-?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/cryinkfly/VCDS-VAG-COM-diagnosis-system---Linux-Wine-Version-?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/cryinkfly/VCDS-VAG-COM-diagnosis-system---Linux-Wine-Version-?style=for-the-badge)
 
 [VCDS (VAG-COM diagnosis system)](https://www.ross-tech.com/) is a software developed by Ross-Tech what us allowed to access the diagnostic data of the control units installed in your vehicle safely, quickly and easily. The high vehicle coverage of VCDS includes all self-diagnosis vehicles of the Volkswagen Group. In addition to Audi, Volkswagen, Seat and Skoda, you also receive vehicle support for selected models from Bentley, Lamborghini, KTM, Spyker and many more.
 
@@ -24,32 +24,32 @@ You will get more information about this program, then you can visit the origina
 
 ---
 
-  - 📂 Downloads: [Stable](https://github.com/cryinkfly/VCDS-VAG-COM-Diagnosis-System-/tree/main/scripts/stable-branch) and [development builds](https://github.com/cryinkfly/VCDS-VAG-COM-Diagnosis-System-/tree/main/scripts/development-branch)
+  - 📂 Downloads: [Stable](https://github.com/cryinkfly/VCDS-VAG-COM-diagnosis-system---Linux-Wine-Version-/tree/main/scripts/stable-branch) and [development builds](https://github.com/cryinkfly/VCDS-VAG-COM-diagnosis-system---Linux-Wine-Version-/tree/main/scripts/development-branch)
   - 📔 Documentation: Still in Progress!
   - 💬 Would You like to get in touch with me? Or if You have any questions, suggestions or problems?
-  - 📫 Then You can create an [issue](https://github.com/cryinkfly/VCDS-VAG-COM-Diagnosis-System-/issues) here on GitHub or You can contact me via my [contact form](https://cryinkfly.com/contact/)!
+  - 📫 Then You can create an [issue](https://github.com/cryinkfly/VCDS-VAG-COM-diagnosis-system---Linux-Wine-Version-/issues) here on GitHub or You can contact me via my [contact form](https://cryinkfly.com/contact/)!
   - 📜 Code of Conduct: Contributor Covenant (Still in Progress!)
   - 📖 Information for contributors: All contribution information, Compilation instructions, Roadmap (Still in Progress!)
-  - ❤️ I'd like to thank everyone who has [helped](https://github.com/cryinkfly/VCDS-VAG-COM-Diagnosis-System-/blob/main/COMMUNITY.md) me to get SolidWorks up and running on Linux!
+  - ❤️ I'd like to thank everyone who has [helped](https://github.com/cryinkfly/VCDS-VAG-COM-diagnosis-system---Linux-Wine-Version-/blob/main/COMMUNITY.md) me to get SolidWorks up and running on Linux!
   - 🍷 Super Application Maintainer (WineHQ): Still in Progress!
 
 ---
 
 ## Screenshots
 <div>
-<img src="https://github.com/cryinkfly/VCDS-VAG-COM-Diagnosis-System-/blob/main/images/installation/%234-installation-welcome-screen.png" width="300px" height="200px">
-<img src="https://github.com/cryinkfly/VCDS-VAG-COM-Diagnosis-System-/blob/main/images/gui/%231-program-main-screen.png" width="300px" height="200px">
+<img src="https://github.com/cryinkfly/VCDS-VAG-COM-diagnosis-system---Linux-Wine-Version-/blob/main/images/installation/%234-installation-welcome-screen.png" width="300px" height="200px">
+<img src="https://github.com/cryinkfly/VCDS-VAG-COM-diagnosis-system---Linux-Wine-Version-/blob/main/images/gui/%231-program-main-screen.png" width="300px" height="200px">
 </div>
 <div>
-<img src="https://github.com/cryinkfly/VCDS-VAG-COM-Diagnosis-System-/blob/main/images/gui/%232-program-options-1.png" width="300px" height="200px">
-<img src="https://github.com/cryinkfly/VCDS-VAG-COM-Diagnosis-System-/blob/main/images/gui/%233-program-options-2.png" width="300px" height="200px">
+<img src="https://github.com/cryinkfly/VCDS-VAG-COM-diagnosis-system---Linux-Wine-Version-/blob/main/images/gui/%232-program-options-1.png" width="300px" height="200px">
+<img src="https://github.com/cryinkfly/VCDS-VAG-COM-diagnosis-system---Linux-Wine-Version-/blob/main/images/gui/%233-program-options-2.png" width="300px" height="200px">
 </div>
 
 ---
 
 ## Downloads
 
-There are some [script releases](https://github.com/cryinkfly/VCDS-VAG-COM-Diagnosis-System-/tree/main/scripts) available, built from the release targets.
+There are some [script releases](https://github.com/cryinkfly/VCDS-VAG-COM-diagnosis-system---Linux-Wine-Version-/tree/main/scripts) available, built from the release targets.
 
 It's recommended that if you're new you start with the stable builds. Development builds are available here if you need it, but correspondingly may be less stable.
 
@@ -68,16 +68,16 @@ It's recommended that if you're new you start with the stable builds. Developmen
 
 Install VCDS (VAG-COM diagnosis system) for Linux client:
 
-1.) Check my <a href="https://github.com/cryinkfly/VCDS-VAG-COM-Diagnosis-System-/wiki/Documentation">GitHub-Documentation (Still in Progress)</a>!
+1.) Check my <a href="https://github.com/cryinkfly/VCDS-VAG-COM-diagnosis-system---Linux-Wine-Version-/wiki/Documentation">GitHub-Documentation (Still in Progress)</a>!
 
 2.) Open a terminal and run this command:
 
-    cd ~/Downloads && wget -N https://github.com/cryinkfly/VCDS-VAG-COM-Diagnosis-System-/raw/main/scripts/stable-branch/vcds-install.sh && chmod +x vcds-install.sh && bash vcds-install.sh && exit
+    cd ~/Downloads && wget -N https://github.com/cryinkfly/VCDS-VAG-COM-diagnosis-system---Linux-Wine-Version-/raw/main/scripts/stable-branch/vcds-install.sh && chmod +x vcds-install.sh && bash vcds-install.sh && exit
 
 3.) Now, You can use this software on your Linux system:
 
-![program-startmenu](https://raw.githubusercontent.com/cryinkfly/VCDS-VAG-COM-Diagnosis-System-/main/images/gui/%231-program-startmenu.png)
-![program-startmenu-command](https://github.com/cryinkfly/VCDS-VAG-COM-Diagnosis-System-/blob/main/images/gui/%232-program-startmenu-command.png)
+![program-startmenu](https://raw.githubusercontent.com/cryinkfly/VCDS-VAG-COM-diagnosis-system---Linux-Wine-Version-/main/images/gui/%231-program-startmenu.png)
+![program-startmenu-command](https://github.com/cryinkfly/VCDS-VAG-COM-diagnosis-system---Linux-Wine-Version-/blob/main/images/gui/%232-program-startmenu-command.png)
 
 ---
 
@@ -118,5 +118,5 @@ And so, You must to purchase the licenses directly from the manufacturer of the 
 
 ## License
 
-All my scripts are released under the MIT license, see ![LICENSE.md](https://github.com/cryinkfly/SOLIDWORKS-Linux-Wine-Version-/blob/main/LICENSE.md) for full text.
+All my scripts are released under the MIT license, see ![LICENSE.md](https://github.com/cryinkfly/VCDS-VAG-COM-diagnosis-system---Linux-Wine-Version-/blob/main/LICENSE.md) for full text.
 
