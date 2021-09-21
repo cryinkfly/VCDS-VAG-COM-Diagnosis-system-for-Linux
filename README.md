@@ -6,7 +6,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/cryinkfly/VCDS-VAG-COM-diagnosis-system---Linux-Wine-Version-?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/cryinkfly/VCDS-VAG-COM-diagnosis-system---Linux-Wine-Version-?style=for-the-badge)
 
-[VCDS (VAG-COM diagnosis system)](https://www.ross-tech.com/) is a software developed by Ross-Tech what us allowed to access the diagnostic data of the control units installed in your vehicle safely, quickly and easily. The high vehicle coverage of VCDS includes all self-diagnosis vehicles of the Volkswagen Group. In addition to Audi, Volkswagen, Seat and Skoda, you also receive vehicle support for selected models from Bentley, Lamborghini, KTM, Spyker and many more.
+[VCDS (VAG-COM diagnosis system)](https://www.ross-tech.com/vag-com/index.html) is a software developed by Ross-Tech what us allowed to access the diagnostic data of the control units installed in your vehicle safely, quickly and easily. The high vehicle coverage of VCDS includes all self-diagnosis vehicles of the Volkswagen Group. In addition to Audi, Volkswagen, Seat and Skoda, you also receive vehicle support for selected models from Bentley, Lamborghini, KTM, Spyker and many more.
 
 But the problem is that this program only works on computers that have Windows system installed!
 
