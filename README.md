@@ -68,7 +68,7 @@ It's recommended that if you're new you start with the stable builds. Developmen
 
 Install VCDS (VAG-COM diagnosis system) for Linux client:
 
-1.) Check my <a href="https://github.com/cryinkfly/VCDS-VAG-COM-diagnosis-system---Linux-Wine-Version-/wiki/Documentation">GitHub-Documentation (Still in Progress)</a>!
+1.) Check my GitHub-Documentation (Still in Progress)!
 
 2.) Open a terminal and run this command:
 
