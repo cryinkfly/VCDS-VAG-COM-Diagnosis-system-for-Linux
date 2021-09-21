@@ -35,6 +35,17 @@
 
 ##############################################################################
 
+# Here all languages are called up via an extra language file for the installation!
+
+function languages {
+    wget https://github.com/cryinkfly/VCDS-VAG-COM-Diagnosis-System-/raw/main/scripts/stable-branch/languages.sh &&
+    chmod +x languages.sh &&
+    clear &&
+    . languages.sh
+}
+
+##############################################################################
+
 # The minimum requirements for installing VCDS (VAG-COM diagnosis system) will be installed here!
 
 function check-requirement {
