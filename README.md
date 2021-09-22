@@ -31,7 +31,7 @@ You will get more information about this program, then you can visit the origina
   - 📜 Code of Conduct: Contributor Covenant (Still in Progress!)
   - 📖 Information for contributors: All contribution information, Compilation instructions, Roadmap (Still in Progress!)
   - ❤️ I'd like to thank everyone who has [helped](https://github.com/cryinkfly/VCDS-VAG-COM-diagnosis-system---Linux-Wine-Version-/blob/main/COMMUNITY.md) me to get SolidWorks up and running on Linux!
-  - 🍷 Super Application Maintainer (WineHQ): Still in Progress!
+  - 🍷 Super Application Maintainer (WineHQ): https://appdb.winehq.org/objectManager.php?sClass=application&iId=5097
 
 ---
 
