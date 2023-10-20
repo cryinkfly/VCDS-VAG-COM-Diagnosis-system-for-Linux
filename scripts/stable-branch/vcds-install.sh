@@ -407,7 +407,7 @@ function winetricks-custom {
    WINEPREFIX=$filename sh winetricks -q corefonts win8 &&
    mkdir -p vcdsdownload &&
    cd svcdsdownload &&
-   wget https://dltemp.ross-tech.com/VCDS/download/R6E5A1/VCDS-Release-23.3.1-Installer.exe VCDS.exe &&
+   wget https://dltemp.ross-tech.com/VCDS/download/R6E5A1/VCDS-Release-23.3.1-Installer.exe -o VCDS.exe &&
    WINEPREFIX=/home/$USER/.wineprefixes/vcds wine VCDS.exe &&
    logfile-installation-custom &&
    program-exit
