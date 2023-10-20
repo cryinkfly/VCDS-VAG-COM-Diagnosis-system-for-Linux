@@ -7,8 +7,8 @@
 # Author URI:   https://cryinkfly.com                                                    #
 # License:      MIT                                                                      #
 # Copyright (c) 2020-2021                                                                #
-# Time/Date:    11:00/21.09.2021                                                         #
-# Version:      1.0                                                                      #
+# Time/Date:    11:10/20.10.2023                                                         #
+# Version:      1.1                                                                      #
 ##########################################################################################
 
 ##############################################################################
@@ -106,20 +106,19 @@ MENU="$text_5_2"
 OPTIONS=(1 "Arch Linux, Manjaro Linux, EndeavourOS, ..."
          2 "Debian 10, MX Linux 19.4, Raspberry Pi Desktop, ..."
          3 "Debian 11"
-         4 "Fedora 33"
-         5 "Fedora 34"
-         6 "openSUSE Leap 15.2"
-         7 "openSUSE Leap 15.3"
+         4 "Fedora 37"
+         5 "Fedora 38"
+         6 "openSUSE Leap 15.4"
+         7 "openSUSE Leap 15.5"
          8 "openSUSE Tumbleweed"
          9 "Red Hat Enterprise Linux 8.x"
          10 "Solus"
-         11 "Ubuntu 18.04, Linux Mint 19.x, ..."
-         12 "Ubuntu 20.04, Linux Mint 20.x, Pop!_OS 20.04, ..."
-         13 "Ubuntu 20.10"
-         14 "Ubuntu 21.04, Pop!_OS 21.04, ..."
-         15 "Ubuntu 21.10"
-         16 "Void Linux"
-         17 "Gentoo Linux")
+         11 "Ubuntu 20.04, Linux Mint 20.x, Pop!_OS 20.04, ..."
+         12 "Ubuntu 22.04, Linux Mint 21.x, Pop!_OS 21.04, ..."
+         13 "Ubuntu 23.04"
+         14 "Ubuntu 23.10"
+         15 "Void Linux"
+         16 "Gentoo Linux")
 
 CHOICE=$(dialog --clear \
                 --backtitle "$BACKTITLE" \
@@ -153,26 +152,26 @@ case $CHOICE in
         4)
             
             fedora-based-1 &&
-            sudo dnf config-manager --add-repo https://dl.winehq.org/wine-builds/fedora/33/winehq.repo &&
+            sudo dnf config-manager --add-repo https://dl.winehq.org/wine-builds/fedora/37/winehq.repo &&
             fedora-based-2
             ;;  
             
         5) 
         
             fedora-based-1 &&
-            sudo dnf config-manager --add-repo https://dl.winehq.org/wine-builds/fedora/34/winehq.repo &&
+            sudo dnf config-manager --add-repo https://dl.winehq.org/wine-builds/fedora/38/winehq.repo &&
             fedora-based-2
             ;;  
         
         6)
         
-            su -c 'zypper up && zypper rr https://download.opensuse.org/repositories/Emulators:/Wine/openSUSE_Leap_15.2/ wine && zypper ar -cfp 95 https://download.opensuse.org/repositories/Emulators:/Wine/openSUSE_Leap_15.2/ wine && zypper install p7zip-full curl wget wine cabextract' &&
+            su -c 'zypper up && zypper rr https://download.opensuse.org/repositories/Emulators:/Wine/openSUSE_Leap_15.4/ wine && zypper ar -cfp 95 https://download.opensuse.org/repositories/Emulators:/Wine/openSUSE_Leap_15.4/ wine && zypper install p7zip-full curl wget wine cabextract' &&
             select-your-path
             ;;
             
         7)
             
-            su -c 'zypper up && zypper rr https://download.opensuse.org/repositories/Emulators:/Wine/openSUSE_Leap_15.3/ wine && zypper ar -cfp 95 https://download.opensuse.org/repositories/Emulators:/Wine/openSUSE_Leap_15.3/ wine && zypper install p7zip-full curl wget wine cabextract' &&
+            su -c 'zypper up && zypper rr https://download.opensuse.org/repositories/Emulators:/Wine/openSUSE_Leap_15.5/ wine && zypper ar -cfp 95 https://download.opensuse.org/repositories/Emulators:/Wine/openSUSE_Leap_15.5/ wine && zypper install p7zip-full curl wget wine cabextract' &&
             select-your-path
             ;;  
             
@@ -197,91 +196,46 @@ case $CHOICE in
         11) 
         
             debian-based-1 &&
-            sudo apt-add-repository -r 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main' &&
-            wget -q https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_18.04/Release.key -O Release.key -O- | sudo apt-key add - &&
-            sudo apt-add-repository 'deb https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_18.04/ ./' &&
+            sudo apt-add-repository -r 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main' &&
+            wget -q https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_20.04/Release.key -O Release.key -O- | sudo apt-key add - &&
+            sudo apt-add-repository 'deb https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_20.04/ ./' &&
             debian-based-2
             ;;
             
         12) 
             
             debian-based-1 &&
-            sudo add-apt-repository -r 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main' &&
-            wget -q https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_20.04/Release.key -O Release.key -O- | sudo apt-key add - &&
-            sudo apt-add-repository 'deb https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_20.04/ ./' &&
+            sudo add-apt-repository -r 'deb https://dl.winehq.org/wine-builds/ubuntu/ jammy main' &&
+            wget -q https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_22.04/Release.key -O Release.key -O- | sudo apt-key add - &&
+            sudo apt-add-repository 'deb https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_22.04/ ./' &&
             debian-based-2
             ;;
             
         13) 
         
             debian-based-1 &&
-            sudo add-apt-repository -r 'deb https://dl.winehq.org/wine-builds/ubuntu/ groovy main' &&
-            wget -q https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_20.10/Release.key -O Release.key -O- | sudo apt-key add - &&
-            sudo apt-add-repository 'deb https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_20.10/ ./' &&
+            sudo add-apt-repository -r 'deb https://dl.winehq.org/wine-builds/ubuntu/ lunar main' &&
+            wget -q https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_23.04/Release.key -O Release.key -O- | sudo apt-key add - &&
+            sudo apt-add-repository 'deb https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_23.04/ ./' &&
             debian-based-2
             ;;
             
         14)
 
-            # Note: This installs the public key to trusted.gpg.d - While this is "acceptable" behaviour it is not best practice.
-            # It is infinitely better than using apt-key add though.
-            # For more information and for instructions to utalise best practices, see:
-            # https://askubuntu.com/questions/1286545/what-commands-exactly-should-replace-the-deprecated-apt-key
-            
-            sudo apt update &&
-            sudo apt upgrade &&
-            sudo dpkg --add-architecture i386  &&
-            mkdir -p /tmp/360 && cd /tmp/360 &&
-            wget https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_21.04/Release.key &&
-            wget https://dl.winehq.org/wine-builds/winehq.key &&
-            gpg --no-default-keyring --keyring ./temp-keyring.gpg --import Release.key &&
-            gpg --no-default-keyring --keyring ./temp-keyring.gpg --export --output opensuse-wine.gpg && rm temp-keyring.gpg &&
-            gpg --no-default-keyring --keyring ./temp-keyring.gpg --import winehq.key &&
-            gpg --no-default-keyring --keyring ./temp-keyring.gpg --export --output winehq.gpg && rm temp-keyring.gpg &&
-            sudo mv *.gpg /etc/apt/trusted.gpg.d/ && cd /tmp && sudo rm -rf 360 &&
-            echo "deb [signed-by=/etc/apt/trusted.gpg.d/opensuse-wine.gpg] https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_21.04/ ./" | sudo tee -a /etc/apt/sources.list.d/opensuse-wine.list &&
-            sudo add-apt-repository -r 'deb https://dl.winehq.org/wine-builds/ubuntu/ hirsute main' &&
+            debian-based-1 &&
+            sudo add-apt-repository -r 'deb https://dl.winehq.org/wine-builds/ubuntu/ mantic main' &&
+            wget -q https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_23.10/Release.key -O Release.key -O- | sudo apt-key add - &&
+            sudo apt-add-repository 'deb https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_23.10/ ./' &&
             debian-based-2
             ;;
-
+            
         15)
-
-            # Note: This installs the public key to trusted.gpg.d - While this is "acceptable" behaviour it is not best practice.
-            # It is infinitely better than using apt-key add though.
-            # For more information and for instructions to utalise best practices, see:
-            # https://askubuntu.com/questions/1286545/what-commands-exactly-should-replace-the-deprecated-apt-key
-            
-            sudo apt update &&
-            sudo apt upgrade &&
-            sudo dpkg --add-architecture i386  &&
-            mkdir -p /tmp/360 && cd /tmp/360 &&
-            wget https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_21.04/Release.key &&
-            wget https://dl.winehq.org/wine-builds/winehq.key &&
-            gpg --no-default-keyring --keyring ./temp-keyring.gpg --import Release.key &&
-            gpg --no-default-keyring --keyring ./temp-keyring.gpg --export --output opensuse-wine.gpg && rm temp-keyring.gpg &&
-            gpg --no-default-keyring --keyring ./temp-keyring.gpg --import winehq.key &&
-            gpg --no-default-keyring --keyring ./temp-keyring.gpg --export --output winehq.gpg && rm temp-keyring.gpg &&
-            sudo mv *.gpg /etc/apt/trusted.gpg.d/ && cd /tmp && sudo rm -rf 360 &&
-
-            # Use 21.04 software prior to 21.10 release. Replace this with the below block after release.
-            echo "deb [signed-by=/etc/apt/trusted.gpg.d/opensuse-wine.gpg] https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_21.04/ ./" | sudo tee -a /etc/apt/sources.list.d/opensuse-wine.list &&
-            sudo add-apt-repository -r 'deb https://dl.winehq.org/wine-builds/ubuntu/ hirsute main' &&
-            
-            # Verify the below repos exist and uncomment this block to replace the above after 21.10 release
-            # echo "deb [signed-by=/etc/apt/trusted.gpg.d/opensuse-wine.gpg] https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/xUbuntu_21.10/ ./" | sudo tee -a /etc/apt/sources.list.d/opensuse-wine.list &&
-            # sudo add-apt-repository -r 'deb https://dl.winehq.org/wine-builds/ubuntu/ impish main' &&
-
-            debian-based-2
-            ;;
-
-            
-        16)
         
             void-linux &&
             select-your-path
             ;;
 
-        17)
+        16)
 
             gentoo-linux &&
             select-your-path
@@ -453,7 +407,7 @@ function winetricks-custom {
    WINEPREFIX=$filename sh winetricks -q corefonts win8 &&
    mkdir -p vcdsdownload &&
    cd svcdsdownload &&
-   wget https://dltemp.ross-tech.com/VCDS/download/O8934p/VCDS-Release-21.9.0-Installer.exe -O VCDS.exe &&
+   wget https://dltemp.ross-tech.com/VCDS/download/R6E5A1/VCDS-Release-23.3.1-Installer.exe VCDS.exe &&
    WINEPREFIX=/home/$USER/.wineprefixes/vcds wine VCDS.exe &&
    logfile-installation-custom &&
    program-exit
