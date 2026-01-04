@@ -7,8 +7,8 @@
 # Author URI:   https://cryinkfly.com                                                    #
 # License:      MIT                                                                      #
 # Copyright (c) 2020-2021                                                                #
-# Time/Date:    11:10/20.10.2023                                                         #
-# Version:      1.1                                                                      #
+# Time/Date:    14:10/04.01.2026                                                         #
+# Version:      1.2                                                                      #
 ##########################################################################################
 
 ##############################################################################
@@ -407,7 +407,7 @@ function winetricks-custom {
    WINEPREFIX=$filename sh winetricks -q corefonts win8 &&
    mkdir -p vcdsdownload &&
    cd svcdsdownload &&
-   wget https://dltemp.ross-tech.com/VCDS/download/R6E5A1/VCDS-Release-23.3.1-Installer.exe -o VCDS.exe &&
+   wget https://dltemp.ross-tech.com/VCDS/download/T73E79/VCDS-Release-25.3.2-Installer.exe -o VCDS.exe &&
    WINEPREFIX=/home/$USER/.wineprefixes/vcds wine VCDS.exe &&
    logfile-installation-custom &&
    program-exit
