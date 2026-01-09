@@ -392,7 +392,7 @@ function winetricks-standard {
    WINEPREFIX=/home/$USER/.wineprefixes/vcds sh winetricks -q corefonts win8 &&
    mkdir -p vcdsdownload &&
    cd vcdsdownload &&
-   wget https://dltemp.ross-tech.com/VCDS/download/O8934p/VCDS-Release-21.9.0-Installer.exe -O VCDS.exe &&
+   wget https://dltemp.ross-tech.com/VCDS/download/T73E79/VCDS-Release-25.3.2-Installer.exe -O VCDS.exe &&
    WINEPREFIX=/home/$USER/.wineprefixes/vcds wine VCDS.exe &&
    logfile-installation-standard &&
    program-exit
