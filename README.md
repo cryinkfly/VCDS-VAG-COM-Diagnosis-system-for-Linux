@@ -1,3 +1,8 @@
+>[!WARNING]
+>This project has been archived here and will be continued on https://codeberg.org/cryinkfly/VCDS-VAG-COM-diagnosis-system-on-Linux.
+
+---
+
 ![banner-vcds](https://user-images.githubusercontent.com/79079633/134122849-69eea782-9f65-4b70-aadd-3d4cdce17bb5.png)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/cryinkfly/VCDS-VAG-COM-diagnosis-system---Linux-Wine-Version-?style=for-the-badge)
